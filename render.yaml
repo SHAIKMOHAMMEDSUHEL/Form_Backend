@@ -9,5 +9,5 @@ services:
     envVars:
       - key: PORT
         value: 10000
-      - key: DATABASE_URL
+      - key: postgresql://postgress:9849@localhost:5432/back
         sync: false
